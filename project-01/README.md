@@ -4,6 +4,14 @@
 This project demonstrates a production-grade serverless AWS architecture designed
 to solve a real-world business problem using secure, scalable, and cost-efficient services.
 
+## Problem Statement
+
+Organizations often lack a secure, auditable, and cost-effective way for users or employees
+to submit sensitive incident reports or service requests in real time.
+
+This project provides a serverless AWS-based intake platform that securely accepts,
+processes, and stores incident data while enabling notifications and auditability.
+
 ## Architecture
 (Architecture diagram will be added here)
 
