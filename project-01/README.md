@@ -21,9 +21,6 @@ processes, and stores incident data while enabling notifications and auditabilit
 5. Notifications are triggered for critical submissions.
 6. Logs and metrics are captured in Amazon CloudWatch.
 
-## Architecture
-(Architecture diagram will be added here)
-
 ## AWS Services Used
 - Amazon API Gateway
 - AWS Lambda
@@ -32,10 +29,11 @@ processes, and stores incident data while enabling notifications and auditabilit
 - Amazon CloudWatch
 
 ## Key Design Decisions
-- Event-driven architecture
-- Least-privilege IAM policies
-- Cost-aware service selection
-- Clear separation of concerns
+
+- Serverless architecture to minimize operational overhead
+- Least-privilege IAM policies for all components
+- Cost-efficient services with pay-per-use pricing
+- Centralized logging and monitoring using CloudWatch
 
 ## Demo
 (Live demo link will be added)
