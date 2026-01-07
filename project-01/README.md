@@ -12,6 +12,15 @@ to submit sensitive incident reports or service requests in real time.
 This project provides a serverless AWS-based intake platform that securely accepts,
 processes, and stores incident data while enabling notifications and auditability.
 
+## High-Level Architecture
+
+1. A user submits an incident or request through a secure HTTPS endpoint.
+2. Amazon API Gateway receives and validates the request.
+3. AWS Lambda processes and sanitizes the input.
+4. Data is stored securely in Amazon DynamoDB.
+5. Notifications are triggered for critical submissions.
+6. Logs and metrics are captured in Amazon CloudWatch.
+
 ## Architecture
 (Architecture diagram will be added here)
 
