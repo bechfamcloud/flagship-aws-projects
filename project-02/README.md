@@ -1,4 +1,4 @@
-# Flagship Project 02 — Advanced AWS Architecture
+# Flagship Project 02 — Containerized Application Platform (ECS/EKS)
 
 ## Overview
 This project showcases advanced AWS engineering concepts using containerization,
