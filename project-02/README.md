@@ -55,3 +55,5 @@ without managing underlying infrastructure.
 3. Traffic is routed to running containers.
 4. Containers retrieve images from ECR during deployment.
 5. Logs and metrics are sent to CloudWatch.
+
+![Architecture Diagram](architecture/diagram.png)
