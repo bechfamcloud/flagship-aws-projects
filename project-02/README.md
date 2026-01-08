@@ -23,6 +23,8 @@ without managing underlying infrastructure.
 4. Traffic is routed to running containers through a load balancer.
 5. Logs and metrics are collected for monitoring and operations.
 
+(Architecture diagram will be added here)
+
 ## AWS Services Used
 
 - Docker
