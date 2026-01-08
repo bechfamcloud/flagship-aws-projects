@@ -23,8 +23,6 @@ without managing underlying infrastructure.
 4. Traffic is routed to running containers through a load balancer.
 5. Logs and metrics are collected for monitoring and operations.
 
-(Architecture diagram will be added here)
-
 ## AWS Services Used
 
 - Docker
@@ -42,8 +40,18 @@ without managing underlying infrastructure.
 - Scalable traffic handling through a load balancer
 - Centralized logging and monitoring with CloudWatch
 
-## Demo
-(Live demo link will be added)
+## Architecture Components
 
-## Related Repositories
-(Links to implementation repos will be added)
+- User
+- Application Load Balancer
+- Container Service (Amazon ECS or Amazon EKS)
+- Amazon Elastic Container Registry (ECR)
+- Amazon CloudWatch
+
+## Request Flow
+
+1. A user sends a request to the application endpoint.
+2. The Application Load Balancer receives the request.
+3. Traffic is routed to running containers.
+4. Containers retrieve images from ECR during deployment.
+5. Logs and metrics are sent to CloudWatch.
